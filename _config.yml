@@ -29,9 +29,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ahmet.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SOCIAL PROFILES that will show in the footer
-email: info@gbif.org                                      # Social icon in footer
+email: auzun@gbif.org                                      # Social icon in footer
 twitter_username: yourname # if you have an account you want to link to. Else comment this line out
-github_username:  yourname # if you have an account you want to link to. Else comment this line out
+github_username:  ahakanzn # if you have an account you want to link to. Else comment this line out
 bluesky_username: yourname.org                            # Social icon in footer
 youtube_username: yourname                              # Social icon in footer
 facebook_username: yourname                             # Social icon in footer
@@ -51,7 +51,7 @@ remote_theme: gbif/jekyll-hp-base-theme
 algae:
   rootLang: en
   # latestPostLimit: 2
-  # logo: /assets/images/fungi.svg  # Logo in navbar, will be displayed with 28px height
+  logo: /assets/images/logo.png  # Logo in navbar, will be displayed with 28px height
   # logoAndTitle: false           # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:
