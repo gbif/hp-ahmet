@@ -23,7 +23,7 @@ title: Ahmet's Portal # the title of your site should go here
 email: auzun@gbif.org
 description: This is a test portal for Ahmet.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ahmet.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ahmet.hp.gbif-staging.org/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SOCIAL PROFILES that will show in the footer
 email: auzun@gbif.org                                      # Social icon in footer
