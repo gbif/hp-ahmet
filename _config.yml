@@ -52,19 +52,19 @@ algae:
   rootLang: en
   # latestPostLimit: 2
   logo: /assets/images/logo.png  # Logo in navbar, will be displayed with 28px height
-  # logoAndTitle: false           # include the title next to the logo
+  logoAndTitle: false             # Modern look - only logo, no title
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:
-    # square: false               # Should corners be square or rounded
+    square: true                  # Modern square corners
     colors:
-      primary: "#fa5e97"          # Primary color of your brand. Use HEX code. Used for buttons and links
-      # links: "#fa5e97"          # What color should links have. Use a HEX code. DEfault is primary color. 
-    coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
+      primary: "#D4AF37"          # Royal gold - primary color
+      links: "#B8860B"            # Dark goldenrod for links
+    coloredHeadlineLinks: true    # Headlines as links use link color
   navbar:                         # RELATED TO NAVIGATION BAR
-    # brandBackground: yellow     # Define a custom background for the logo/title in the top navigation bar
-    # color: "tomato"             # What color should the navbar be?
-    # hasWhiteText: true          # Should the text color be white?
-    # floating: true
+    brandBackground: "#1a1a1a"    # Dark background for logo/title
+    color: "#2C2C2C"              # Dark charcoal navbar
+    hasWhiteText: true            # White text for contrast
+    floating: true                # Modern floating navbar
 
 useSharedLibrary: true # Use the new component library
 updateTranslationMenuOnWidgetEvents: true # Notice that this feature requires urls for widgets to be the same across languages (except for a language prefix)
